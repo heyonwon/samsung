@@ -121,7 +121,7 @@ li {list-style: none;}
 .ftt1 {line-height: 2;}
 .ftt2 {line-height: 2;}
 .ftt3 {line-height: 2;}
-.footertw > .footert2 {width: 16.5%; height: 400px;
+ .footertw > .footert2 {width: 16.5%; height: 400px;
      margin-top: -400px; margin-left: 540px; border-right: 1px solid gray;}
      .footertw > .footert3 {width: 16.5%; height: 400px;
           margin-top: -400px; margin-left: 820px; border-right: 1px solid gray;}  
