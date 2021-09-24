@@ -139,3 +139,7 @@ li {list-style: none;}
 .cc1 {width: 60%; margin: 0 auto; text-align: center; padding-top: 20px;}
 .cc1 li {float: left;}
 .cc1 li a {font-size: 18px;}
+
+.zz1 {position: absolute; top: 4380px; left: 200px; text-align: left; }
+
+.zz1 p {padding-top: 20px;}
