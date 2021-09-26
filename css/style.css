@@ -33,11 +33,11 @@ li {list-style: none;}
 .hmm {float: right; margin-top: -27px;}
 .hmm > ul > li {float: left; margin-right: 15px;}
 
-#contents {width: 100%; height: 810px; overflow: hidden;}
-.slideimg {width: 100%; height: 810px; position: relative;}
-.slideimg .cw {position: absolute; bottom: 50px;left: 400px;}
-.slideimg .cw li {float: left; padding-right: 35px;}
-.slideimg img {display: block;}
+.slider {width: 100%; height: 810px; overflow: hidden;}
+.slider img {width: 100%; height: 810px; position: relative;}
+.slider .cw {position: absolute; bottom: 50px;left: 400px;}
+.slider .cw li {float: left; padding-right: 35px;}
+.slider img {display: block;}
 
 #contents2 {width: 100%; height: 80px;  margin-top: 25px;}
 .slide2 {width: 35%; height: 50px; margin: 0 auto; padding: 25px;}

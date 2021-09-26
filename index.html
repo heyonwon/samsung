@@ -7,6 +7,19 @@
     <title>삼성전자</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/pavicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
+    <style>
+    .bx-wrapper .bx-pager {
+    display: none;
+}
+    </style>
 </head>
 <body>
     <div id="wrap">
@@ -48,29 +61,43 @@
             </div>
          
         </header>
-        <section id="contents" class="clearfix">
-            <article class="slidelist">
-                <div class="slideimg" >
-                    <ul class="cw">
-                        <li><a href="#" style="color: white; border-bottom: 2px solid gray;">삼성 슈퍼 세일</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Galaxy Z Flip3 5G</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Galaxy Watch4</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Neo QLED</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Team Samsung</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">BESPOKE 김치플러스 런칭</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">갤럭시 스튜디오</a></li>
-                        <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">홈 피트니스</a></li>
-                    </ul>
-                    <img src="images/sam33.jpg" alt="s1">
-                </div>
-                <div class="slideimg">
-                    <img src="images/sam1.jpg" alt="s2">
-                </div>
-                <div class="slideimg">
-                    <img src="images/sam2.jpg" alt="s3">
-                </div>
-            </article>
-        </section>
+        <div class="slider">
+            <div><img src="images/sam33.jpg">
+                <ul class="cw">
+                    <li><a href="#" style="color: white; border-bottom: 2px solid gray;">삼성 슈퍼 세일</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Galaxy Z Flip3 5G</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Galaxy Watch4</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Neo QLED</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">Team Samsung</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">BESPOKE 김치플러스 런칭</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">갤럭시 스튜디오</a></li>
+                    <li><a href="#" style="color: white;  border-bottom: 2px solid gray;">홈 피트니스</a></li>
+                </ul></div>
+            <div><img src="images/SAM11.jpg">
+                <ul class="cw">
+                    <li><a href="#" style="color: black; border-bottom: 2px solid gray;">삼성 슈퍼 세일</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Galaxy Z Flip3 5G</a></li>
+                    <li><a href="#" style="color: black; border-bottom: 2px solid gray;">Galaxy Watch4</a></li>
+                    <li><a href="#" style="color: black; border-bottom: 2px solid gray;">Neo QLED</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Team Samsung</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">BESPOKE 김치플러스 런칭</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">갤럭시 스튜디오</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">홈 피트니스</a></li>
+                </ul></div>
+            <div><img src="images/SAM1231.jpg">
+                <ul class="cw">
+                    <li><a href="#" style="color: black; border-bottom: 2px solid gray;">삼성 슈퍼 세일</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Galaxy Z Flip3 5G</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Galaxy Watch4</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Neo QLED</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">Team Samsung</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">BESPOKE 김치플러스 런칭</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">갤럭시 스튜디오</a></li>
+                    <li><a href="#" style="color: black;  border-bottom: 2px solid gray;">홈 피트니스</a></li>
+                </ul></div>
+           
+        </div>
+       
         <section id="contents2" class="clearfix">
             <article class="slide2">
                 <div class="slidem">
@@ -227,7 +254,7 @@
                     <img src="images/ssm1.jpg">
                     
                 </div>
-                <div class="sp1" style="position: absolute; top: 5600px; text-align: left;" >
+                <div class="sp1" style="position: absolute; top: 5630px; text-align: left;" >
                 <span style="font-size: 28px; font-weight: bold;">EXPERIENCE</span>
                         <p style="font-size: 16px; padding-bottom: 13px;">갤럭시 스튜디오</p>
                         <span >갤럭시 Z 폴드3 I 플립3 부터 <br>
@@ -237,7 +264,7 @@
                 <div class="simgw4">
                     <img src="images/ssm4.png">
                 </div>
-                <div class="sp4" style="position: absolute; top: 6020px; text-align: left;" >
+                <div class="sp4" style="position: absolute; top: 6100px; text-align: left;" >
                     <span style="font-size: 28px; font-weight: bold;">VIDEO</span>
                             <p style="font-size: 16px; padding-bottom: 13px;">한눈에 보는 제품 영상</p>
                             <span >어떤 영상을 찾으세요? 다양한 영상을 한눈에 보고 마음에 드는<br> 제품을
@@ -248,7 +275,7 @@
                 <div class="simgw2">
                     <img src="images/ssm2.jpg">
                 </div>
-                <div class="sp2" style="position: absolute; top: 5300px; text-align: left;" >
+                <div class="sp2" style="position: absolute; top: 5330px; text-align: left;" >
                     <span style="font-size: 28px; font-weight: bold;">CLASS</span>
                             <p style="font-size: 16px; padding-bottom: 13px;">갤럭시 Fan 클래스</p>
                             <span >갤럭시 Z 폴드3 I 플립3 의 일상 속 찐 활용법을 배우고 직접<br> 체험해 보세요!</span>
@@ -256,7 +283,7 @@
                 <div class="simgw5">
                     <img src="images/ssm5.jpg">
                 </div>
-                <div class="sp5" style="position: absolute; top: 6030px; text-align: left;" >
+                <div class="sp5" style="position: absolute; top: 6100px; text-align: left;" >
                     <span style="font-size: 28px; font-weight: bold;">SUPPORT</span>
                             <p style="font-size: 16px; padding-bottom: 13px;">매장 상담 예약</p>
                             <span >맞춤 상담을 예약하고 삼성전자가 제안하는 라이프스타일을<br> 직접 체험해보세요.</span>
@@ -266,7 +293,7 @@
                 <div class="simgw3">
                     <img src="images/ssm3.jpg">
                 </div>
-                <div class="sp3" style="position: absolute; top: 5450px; text-align: left;" >
+                <div class="sp3" style="position: absolute; top: 5500px; text-align: left;" >
                     <span style="font-size: 28px; font-weight: bold;">VIDEO</span>
                             <p style="font-size: 16px; padding-bottom: 13px;">갤럭시 리얼 마케팅쇼</p>
                             <span >갤럭시 Z 폴드3 I 플립3 를 위해 찐팬들이 뭉쳤다!<br>
@@ -275,7 +302,7 @@
                 <div class="simgw6">
                     <img src="images/ssm6.jpg">
                 </div>
-                <div class="sp6" style="position: absolute; top: 6030px; text-align: left;" >
+                <div class="sp6" style="position: absolute; top: 6100px; text-align: left;" >
                     <span style="font-size: 28px; font-weight: bold;">EVENT</span>
                             <p style="font-size: 16px; padding-bottom: 13px;">나만의 폴더블 캐릭터</p>
                             <span >나만의 폴더블 캐릭터를 테스트를 통해 알아보고,갤럭시 라이프 <br>큐레이션도 경험해 보세요</span>
@@ -398,5 +425,6 @@
         </div>
         </footer>
     </div>
+    
 </body>
 </html>
