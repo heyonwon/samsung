@@ -18,7 +18,11 @@ li {list-style: none;}
 
 
 .hm {position: absolute; top: 20px; left: 220px;}
+.hm .ma {position: absolute; width: 100%; height: 770px; background: white; z-index: 5000;}
+.hm .ma li { padding-top: 35px;}
+.hm .ma a{font-size: 18px; padding: 10px; padding-top: 30px;}
 .hm > ul > li{float: left; margin-right: 25px; padding-right: 20px;}
+
 .hm a {font-size: 15px;}
 
 .hmm {float: right; margin-top: -27px;}
